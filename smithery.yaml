@@ -1,0 +1,36 @@
+name: meok-dvsa-olicence-mcp
+description: 'UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-dvsa-olicence-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: audit_o_licence_compliance
+  description: audit o licence compliance
+- name: check_financial_standing
+  description: check financial standing
+- name: check_tm_continuous_effective_control
+  description: check tm continuous effective control
+- name: audit_pmi_compliance
+  description: audit pmi compliance
+- name: generate_public_inquiry_brief
+  description: generate public inquiry brief
+- name: forecast_pi_risk
+  description: forecast pi risk
+- name: check_repute_indicators
+  description: check repute indicators
+- name: prepare_dvsa_visit_pack
+  description: prepare dvsa visit pack
+- name: audit_subcontractor_due_diligence
+  description: audit subcontractor due diligence
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

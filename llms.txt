@@ -1,0 +1,25 @@
+# meok-dvsa-olicence-mcp
+
+> UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive O-licence compliance (financial standing, repute, professional competence, PMI cadence, TM continuous effective control, subcontractor due diligence). PI brief generator alone avoids £8-25k legal + £20-100k/yr insurance jump + licence revocation risk. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- audit_o_licence_compliance
+- check_financial_standing
+- check_tm_continuous_effective_control
+- audit_pmi_compliance
+- generate_public_inquiry_brief
+- forecast_pi_risk
+- check_repute_indicators
+- prepare_dvsa_visit_pack
+- audit_subcontractor_due_diligence
+
+## Install
+```
+pip install meok-dvsa-olicence-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-dvsa-olicence-mcp/
+- Docs: https://meok.ai

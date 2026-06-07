@@ -1,0 +1,40 @@
+{
+  "name": "meok-dvsa-olicence-mcp",
+  "title": "Meok Dvsa Olicence Mcp",
+  "description": "UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive O-licence compliance (financial standing, repute, professional competence, PMI cadence, TM continuous effective control, subcontractor due diligence). PI brief generator alone avoids \u00a38-25k legal + \u00a320-100k/yr insurance jump + licence revocation risk. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "audit_o_licence_compliance"
+    },
+    {
+      "name": "check_financial_standing"
+    },
+    {
+      "name": "check_tm_continuous_effective_control"
+    },
+    {
+      "name": "audit_pmi_compliance"
+    },
+    {
+      "name": "generate_public_inquiry_brief"
+    },
+    {
+      "name": "forecast_pi_risk"
+    },
+    {
+      "name": "check_repute_indicators"
+    },
+    {
+      "name": "prepare_dvsa_visit_pack"
+    },
+    {
+      "name": "audit_subcontractor_due_diligence"
+    }
+  ]
+}

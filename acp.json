@@ -1,0 +1,27 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-dvsa-olicence-mcp",
+    "description": "UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-dvsa-olicence-mcp"
+      }
+    ],
+    "capabilities": [
+      "audit_o_licence_compliance",
+      "check_financial_standing",
+      "check_tm_continuous_effective_control",
+      "audit_pmi_compliance",
+      "generate_public_inquiry_brief",
+      "forecast_pi_risk",
+      "check_repute_indicators",
+      "prepare_dvsa_visit_pack",
+      "audit_subcontractor_due_diligence"
+    ]
+  }
+}

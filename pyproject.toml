@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-dvsa-olicence-mcp"
+version = "1.0.0"
+description = "UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive O-licence compliance (financial standing, repute, professional competence, PMI cadence, TM continuous effective control, subcontractor due diligence). PI brief generator alone avoids £8-25k legal + £20-100k/yr insurance jump + licence revocation risk. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "dvsa", "o-licence", "operator-licence", "public-inquiry", "traffic-commissioner", "haulage", "transport-manager", "ocrs", "compliance", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-dvsa-olicence-mcp"
+
+[project.scripts]
+meok-dvsa-olicence-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

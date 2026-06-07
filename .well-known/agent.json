@@ -1,0 +1,104 @@
+{
+  "name": "meok-dvsa-olicence-mcp",
+  "description": "UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive",
+  "url": "https://proofof.ai/scorecard/meok-dvsa-olicence-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "audit_o_licence_compliance",
+      "name": "Audit O Licence Compliance",
+      "description": "audit_o_licence_compliance via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_financial_standing",
+      "name": "Check Financial Standing",
+      "description": "check_financial_standing via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_tm_continuous_effective_control",
+      "name": "Check Tm Continuous Effective Control",
+      "description": "check_tm_continuous_effective_control via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_pmi_compliance",
+      "name": "Audit Pmi Compliance",
+      "description": "audit_pmi_compliance via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_public_inquiry_brief",
+      "name": "Generate Public Inquiry Brief",
+      "description": "generate_public_inquiry_brief via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "forecast_pi_risk",
+      "name": "Forecast Pi Risk",
+      "description": "forecast_pi_risk via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_repute_indicators",
+      "name": "Check Repute Indicators",
+      "description": "check_repute_indicators via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_dvsa_visit_pack",
+      "name": "Prepare Dvsa Visit Pack",
+      "description": "prepare_dvsa_visit_pack via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_subcontractor_due_diligence",
+      "name": "Audit Subcontractor Due Diligence",
+      "description": "audit_subcontractor_due_diligence via meok-dvsa-olicence-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
