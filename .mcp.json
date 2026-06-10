@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-dvsa-olicence-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-dvsa-olicence-mcp"
+      ]
+    }
+  }
+}
