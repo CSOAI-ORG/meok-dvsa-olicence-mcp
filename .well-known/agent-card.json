@@ -1,0 +1,185 @@
+{
+  "name": "Meok Dvsa Olicence Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-dvsa-olicence-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK DVSA Operator Licence audit + Traffic Commissioner Public Inquiry brief generator. Comprehensive O-licence compliance (financial standing, repute, professional competence, PMI cadence, TM continuous effective control, subcontractor due diligence). PI brief generator alone avoids £8-25k legal + £20-100k/yr insurance jump + licence revocation risk. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "audit_o_licence_compliance",
+      "name": "Audit O Licence Compliance",
+      "description": "Audit O Licence Compliance — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_financial_standing",
+      "name": "Check Financial Standing",
+      "description": "Check Financial Standing — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_tm_continuous_effective_control",
+      "name": "Check Tm Continuous Effective Control",
+      "description": "Check Tm Continuous Effective Control — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_pmi_compliance",
+      "name": "Audit Pmi Compliance",
+      "description": "Audit Pmi Compliance — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_public_inquiry_brief",
+      "name": "Generate Public Inquiry Brief",
+      "description": "Generate Public Inquiry Brief — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "forecast_pi_risk",
+      "name": "Forecast Pi Risk",
+      "description": "Forecast Pi Risk — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_repute_indicators",
+      "name": "Check Repute Indicators",
+      "description": "Check Repute Indicators — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_dvsa_visit_pack",
+      "name": "Prepare Dvsa Visit Pack",
+      "description": "Prepare Dvsa Visit Pack — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_subcontractor_due_diligence",
+      "name": "Audit Subcontractor Due Diligence",
+      "description": "Audit Subcontractor Due Diligence — a tool of the meok-dvsa-olicence-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-dvsa-olicence-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
