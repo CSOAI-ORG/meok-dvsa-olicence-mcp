@@ -22,7 +22,6 @@ Recent Traffic Commissioner public decisions (2024-25) include:
 - **Cheryl James** — TM repute lost, revocation upheld
 - **Robert Ogilvie** — disqualified, repute lost, multiple PG9s
 
-A single Public Inquiry typically costs **£8,000-£25,000** in legal fees, drives insurance premiums up **£20,000-£100,000/yr**, and can end the business in licence revocation. The wedge of avoidance is enormous.
 
 This MCP gives **named Transport Managers, owner-operators, and transport solicitors** the callable toolkit for:
 
@@ -68,14 +67,11 @@ pip install meok-dvsa-olicence-mcp
 | `prepare_dvsa_visit_pack` | Comprehensive 24h evidence checklist (not just tacho). |
 | `audit_subcontractor_due_diligence` | Subcontractor O-licence, insurance, MOT, repute. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £79/mo (signed attestations + email support)
-- **Pro** — £249/mo (multi-user dashboard + PI brief auto-update)
-- **Fleet** — £799/mo (50+ vehicles, audit-export, solicitor-handoff, SLA)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro 79/mo](https://www.csoai.org/checkout) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
